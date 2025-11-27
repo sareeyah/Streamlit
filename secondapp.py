@@ -29,9 +29,6 @@ with st.sidebar:
 # select dark or light theme
 # if user select dark change the theme of streamlit app
 
-
-import streamlit as st
-
 # ------------------ SIDEBAR TOGGLE SWITCH ------------------
 st.sidebar.write("### Theme")
 
@@ -89,5 +86,6 @@ else:
 # ------------------ PAGE CONTENT ------------------
 st.title("🌗 Animated Theme Switch (Dark / Light)")
 st.write(f"Current theme: **{theme_label}**")
+
 
 
